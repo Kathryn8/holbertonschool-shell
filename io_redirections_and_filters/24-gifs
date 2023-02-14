@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./*  -type f -name "*.gif" -ls | tr -s ' ' | cut -d ' ' -f 8,12
+find .  -type f -name "*.gif" -ls | tr -s ' ' | cut -d ' ' -f 8,12
